@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:text="主要功能"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorZhuYaoGongNeng"/>
+
+    <com.lianjunbao.SecurityApplication.View.FocusedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:ellipsize="marquee"
+        android:text="这里是安全卫士！这个app可以为我们提供安全的手机运行环境！"
+        android:singleLine="true"/>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:verticalSpacing="10dp"
+        android:id="@+id/gv_Home"
+        android:numColumns="3"/>
+</LinearLayout>

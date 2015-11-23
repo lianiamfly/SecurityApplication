@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gvItem_iv"
+        android:src="@drawable/home_apps"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gvItem_tv"
+        android:text="系统安全"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="5dp"
+        />
+</LinearLayout>

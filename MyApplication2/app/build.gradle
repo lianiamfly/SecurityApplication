@@ -25,4 +25,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.2.1'
     compile 'com.android.support:design:22.2.1'
     compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile files('src/main/java/com/lianjunbao/Libs/xUtils-2.6.14.jar')
 }
