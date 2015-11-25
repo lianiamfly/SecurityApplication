@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingItemView">
+        <attr name="sync_title" format="string" />
+        <attr name="sync_desc_on" format="string" />
+        <attr name="sync_desc_off" format="string" />
+    </declare-styleable>
+</resources>

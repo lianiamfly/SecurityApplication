@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:viewattr="http://schemas.android.com/apk/res/com.lianjunbao.administrator.securityapplication"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/TitleTheme"
+        android:text="功能设置"
+        android:id="@+id/tv_titile"/>
+
+    <com.lianjunbao.SecurityApplication.View.SettingItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stv_sync"
+        viewattr:sync_title="自动更新设置"
+        viewattr:sync_desc_on="自动更新功能已开启"
+        viewattr:sync_desc_off="自动更新功能已关闭"
+        />
+</LinearLayout>

@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.lianjunbao.SecurityApplication.Activitys.HomeActivity"/>
+        <activity android:name="com.lianjunbao.SecurityApplication.Activitys.SettingActivity"/>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET"/>

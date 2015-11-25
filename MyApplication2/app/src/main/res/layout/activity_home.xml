@@ -4,13 +4,9 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="36sp"
+       style="@style/TitleTheme"
         android:text="主要功能"
-        android:textAlignment="center"
-        android:textColor="@color/colorBlack"
-        android:background="@color/colorZhuYaoGongNeng"/>
+        />
 
     <com.lianjunbao.SecurityApplication.View.FocusedTextView
         android:layout_width="match_parent"

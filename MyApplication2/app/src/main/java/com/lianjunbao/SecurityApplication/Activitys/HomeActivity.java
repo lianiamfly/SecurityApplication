@@ -1,9 +1,11 @@
 package com.lianjunbao.SecurityApplication.Activitys;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
@@ -29,6 +31,33 @@ public class HomeActivity extends Activity {
         this.setContentView(R.layout.activity_home);
         gv_Home= (GridView) findViewById(R.id.gv_Home);
         gv_Home.setAdapter(new HomeAdapter());
+        gv_Home.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                switch (position){
+                    case 0:
+                        break;
+                    case 1:
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        break;
+                    case 4:
+                        break;
+                    case 5:
+                        break;
+                    case 6:
+                        break;
+                    case 7:
+                        break;
+                    case 8:
+                        Intent intent=new Intent(HomeActivity.this,SettingActivity.class);
+                        startActivity(intent);
+                        break;
+                }
+            }
+        });
     }
 
     class HomeAdapter extends BaseAdapter{
@@ -56,6 +85,7 @@ public class HomeActivity extends Activity {
             //对需要添加的view中的图片和文字进行修改
             textView.setText(mItems[position]);
             imageView.setImageResource(mPics[position]);
+
             return view;
         }
     }
